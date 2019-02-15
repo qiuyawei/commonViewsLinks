@@ -1,0 +1,12 @@
+1.如果一行文字中字体大小或者颜色不一样
+可以用 String content="<font color='#eeffdd'>"+"1"+"</font>";
+String newStr=Html.form(content);来实现
+
+2.如果json字符串中包含html标签，可以用下列方法去除
+
+ GsonBuilder gsonBuilder=new GsonBuilder();
+        gsonBuilder.disableHtmlEscaping();
+        Gson gson=gsonBuilder.create();
+        String json = gson.toJson(serverSearchClientBean);
+
+3.test 命令

@@ -1,2 +1,8 @@
 //各种进度条，这是一个博客链接，里面包含各类进度条的git链接
 https://blog.csdn.net/binglumeng/article/details/53215108
+
+//视频缓存和播放 AndroidVideoCache-视频边播放边缓存的代理策略
+https://blog.csdn.net/coderder/article/details/80909428
+
+//AndroidStudio中使用开源框架android-gif-drawable
+https://github.com/koral--/android-gif-drawable
